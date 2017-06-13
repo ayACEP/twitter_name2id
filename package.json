@@ -1,0 +1,29 @@
+{
+  "name": "code_gen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel --presets react ./src --watch --out-dir ./app",
+    "start": "electron ."
+  },
+  "author": "ayACEP",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "electron": "1.3.14",
+    "jquery": "1.9.1",
+    "node-localstorage": "^1.3.0",
+    "pg": "^6.1.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "xmlbuilder": "^8.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.3"
+  }
+}
